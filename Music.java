@@ -33,3 +33,11 @@ public class Music {
         myGuitar.repair();
     }
 }
+
+/*
+// Bonus Challenge: This will cause a compile-time error
+error: cannot inherit from final Guitar
+class ElectricGuitar extends Guitar {
+    // Error: cannot inherit from final class Guitar
+}
+*/
